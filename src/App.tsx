@@ -10,7 +10,7 @@ export default function App() {
 
   useEffect(() => {
     // Set your exact wedding date and time here
-    const weddingDate = new Date('2026-12-14T12:00:00').getTime(); 
+    const weddingDate = new Date('2026-12-14T11:00:00').getTime(); 
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
